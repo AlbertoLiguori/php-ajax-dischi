@@ -36,8 +36,10 @@
                       <li class="cd" v-for="disc in filteredByGenre">
                             <img :src="disc.poster" alt="">
                             <h3>{{disc.title}}</h3>
+                            <span class="genre">{{disc.genre}}</span>
                             <span class="author">{{disc.author}}</span>
                             <span class="year">{{disc.year}}</span>
+
                       </li>
 
               </ul>
